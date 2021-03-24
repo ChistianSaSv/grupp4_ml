@@ -20,3 +20,10 @@ background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
 background-size: 500% 500%;
 animation: change-gradient 10s ease-in-out infinite;
 }
+
+.profile-icon{
+  width: 500px;
+  height:250px;
+  object-fit: cover;
+  margin-top: 2.5%;
+}
