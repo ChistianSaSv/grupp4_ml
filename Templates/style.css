@@ -1,0 +1,22 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+body{
+	font-family: verdana;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+.container{
+padding: 25px;
+margin: 0.75em;
+position: relative;
+background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
+background-size: 500% 500%;
+animation: change-gradient 10s ease-in-out infinite;
+}

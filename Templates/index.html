@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewGame prediction</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <!-- Website title on top -->
+            <div class="container">
+                <h2 class='container-heading'><span class="heading_font">New Game Prediction</span></h2>
+                <div class='description'>
+                    <p>A Machine Learning Web App</p>
+                </div>
+            </div>
+
+                    <!-- Text area where the user enters the requested data -->
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="genre" placeholder="Name of the Genre"><br>
+                <input class="form-input" type="text" name="platform" placeholder="Name of the Platform"><br>
+                <input class="form-input" type="text" name="publisher" placeholder="Name of the Publisher"><br>
+                 <!--Button-->
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+    	</div>
+</body>
+</html>
