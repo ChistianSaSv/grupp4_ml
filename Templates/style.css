@@ -21,6 +21,10 @@ background-size: 500% 500%;
 animation: change-gradient 10s ease-in-out infinite;
 }
 
+.my-cta-button{
+  margin-top: 0.5%;
+}
+
 .profile-icon{
   width: 500px;
   height:250px;
