@@ -5,11 +5,11 @@ html{
 
 body{
 	font-family: verdana;
-    text-align: center;
-    color: aliceblue;
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  text-align: center;
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  width: 100%;
 }
 
 img {
@@ -18,14 +18,14 @@ img {
 }
 
 .heading_font{
-    color: #ffffff;
+  color: #ffffff;
 	font-family: 'italic', cursive;
-	font-size: 30px;
+	font-size: 35px;
 	font-weight: normal;
 }
 
 .container{
-padding: 25px;
+padding: 15px;
 position: relative;
 background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
 background-size: 500% 500%;
@@ -51,9 +51,9 @@ animation: change-gradient 20s ease-in-out infinite;
 
 .form-input {
 	text-align:center;
-	width: 250px;
+	width: 200px;
 	height: 25px;
-	margin-bottom: 5px;
+	margin-bottom: 3px;
 }
 
 .my-cta-button{
@@ -61,22 +61,22 @@ animation: change-gradient 20s ease-in-out infinite;
   background:#f9f9f9;
   border: 2px solid #000000;
   border-radius: 250px;
-  padding: 9px 27px;
+  padding: 4px 20px;
   box-shadow: 2px 2px #1f1d1d;
 }
 
 .profile-icon{
-  width: 400px;
+  width: 350px;
   height:200px;
   background-position:center;
   border-radius: 20px;
-  padding: 10px; 
+  
 }
 
 .footer{
 	flex-shrink: 0;
 	position: relative;
-	padding: 10px;
+	padding: 5px;
 	background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
 	background-size: 500% 500%;
 	animation: change-gradient 20s ease-in-out infinite;
