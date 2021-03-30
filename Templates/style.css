@@ -62,7 +62,7 @@ animation: change-gradient 20s ease-in-out infinite;
   border: 2px solid #000000;
   border-radius: 250px;
   padding: 9px 27px;
-  box-shadow: 2px 2px #cf0c3d;
+  box-shadow: 2px 2px #1f1d1d;
 }
 
 .profile-icon{
@@ -76,7 +76,7 @@ animation: change-gradient 20s ease-in-out infinite;
 .footer{
 	flex-shrink: 0;
 	position: relative;
-	padding: 15px;
+	padding: 10px;
 	background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
 	background-size: 500% 500%;
 	animation: change-gradient 20s ease-in-out infinite;
