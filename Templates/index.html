@@ -16,17 +16,24 @@
                 </div>
             </div>
 
-                    <!-- Text area where the user enters the requested data -->
+                    <!-- Text area depending on user interaction -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
                 <input class="form-input" type="text" name="genre" placeholder="Name of the Genre"><br>
                 <input class="form-input" type="text" name="platform" placeholder="Name of the Platform"><br>
                 <input class="form-input" type="text" name="publisher" placeholder="Name of the Publisher"><br>
+
                  <!--Submit button-->
         		<input type="submit" class="my-cta-button" value="Predict">
         	</form>
-            <!--Picture-->
-            <img class="profile-icon" src=".img/Bild1.jpg" alt="ML">
     	</div>
+
+        <!--Picture-->
+        <img class="profile-icon" src=".img/Bild1.jpg" alt="ML">
+
+        <!-- Footer -->
+        <div class='footer'>
+            <p class='footer-description'>Made by Group 4<p>
+        </div>
 </body>
 </html>
