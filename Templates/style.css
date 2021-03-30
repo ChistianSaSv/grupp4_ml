@@ -27,7 +27,7 @@ img {
 .container{
 padding: 15px;
 position: relative;
-background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
+background: linear-gradient(45deg, #131014, #097ba8, #b40606);
 background-size: 500% 500%;
 animation: change-gradient 20s ease-in-out infinite;
 }
@@ -77,7 +77,7 @@ animation: change-gradient 20s ease-in-out infinite;
 	flex-shrink: 0;
 	position: relative;
 	padding: 5px;
-	background: linear-gradient(45deg, #1b90b3, #b9f70e, #c40707);
+	background: linear-gradient(45deg, #131014, #097ba8, #b40606);
 	background-size: 500% 500%;
 	animation: change-gradient 20s ease-in-out infinite;
 }
