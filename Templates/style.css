@@ -1,16 +1,16 @@
 html{
-	height: 100%;
-	margin: 0;
+height: 100%;
+margin: 0;
 }
 
 body{
-	font-family: verdana;
-    text-align: center;
-    color: aliceblue;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-  }
+font-family: verdana;
+text-align: center;
+color: aliceblue;
+margin: 0;
+padding: 0;
+width: 100%;
+}
 
 .container{
 padding: 25px;
@@ -21,9 +21,16 @@ background-size: 500% 500%;
 animation: change-gradient 10s ease-in-out infinite;
 }
 
+.form-input{
+text-align:center;
+width: 200px;
+height: 25px;
+margin-bottom: 3px;
+}
+
 .profile-icon{
-  width: 500px;
-  height:250px;
-  object-fit: cover;
-  margin-top: 2.5%;
+width: 500px;
+height:250px;
+object-fit: cover;
+margin-top: 2.5%;
 }
