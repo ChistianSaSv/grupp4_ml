@@ -16,7 +16,9 @@
                 </div>
             </div>
 
-                    <!-- Text area depending on user interaction -->
+<!--#region ml-container  -->
+
+    <!-- Text area depending on user interaction -->
     	<div class="ml-container">
     		<form action="{{ url_for('predict') }}" method="POST">
                 <input class="form-input" type="text" name="genre" placeholder="Name of the Genre"><br>
@@ -26,10 +28,12 @@
                  <!--Submit button-->
         		<input type="submit" class="my-cta-button" value="Predict">
         	</form>
-    	</div>
 
-        <!--Picture-->
-        <img class="profile-icon" src="..\static\bild1.jpg" alt="ML">
+            <!--Picture-->
+            <img class="profile-icon" src="..\static/Game Sales Predictor.png" alt="ML">
+
+    	</div>
+<!--#endregion -->
 
         <!-- Footer -->
         <div class='footer'>
