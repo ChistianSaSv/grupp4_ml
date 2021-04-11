@@ -1,0 +1,97 @@
+html{
+height: 100%;
+margin: 0;
+}
+
+body{
+font-family: verdana;
+text-align: center;
+color: aliceblue;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+.heading_font{
+color: #ffffff;
+font-family: verdana,'italic', cursive;
+font-size: 35px;
+font-weight: bold;
+}
+
+.container{
+padding: 15px;
+position: relative;
+background: linear-gradient(45deg, #131014, #097ba8, #b40606);
+background-size: 500% 500%;
+animation: change-gradient 15s ease-in-out infinite;
+}
+
+@keyframes change-gradient {
+	0%{
+		background-position: 0 50%;
+	}
+	50%{
+		background-position: 100% 50%;
+	}
+	100%{
+		background-position: 0 50%;
+	}
+}
+
+.ml-container{
+margin: 30px 0;
+flex: 1 0 auto;
+color:black;
+}
+
+#score-input {
+text-align:center;
+width: 350px;
+height: 35px;
+margin-bottom: 10px;
+}
+
+#my-cta-button{
+margin: 5px 0px 5px 0px;
+background:#f9f9f9;
+border: 2px solid #1f1e1e;
+border-radius: 200px;
+padding: 8px 40px;
+box-shadow: 3px 3px #646262;
+display: inline-block;
+font: italic bold 17px/1 "Calibri", sans-serif;
+text-align: center;
+}
+
+#my-cta-button:hover{
+    color: #4d089a;
+    border: 2px solid #2d05df;
+}
+
+#my-cta-button:active{
+    box-shadow: 0 0;
+}
+.profile-icon{
+width: 250px;
+height: 250px;
+background-position: center;
+border-radius: 5px;
+max-width: 100%;
+}
+
+.footer{
+flex-shrink: 0;
+position: relative;
+padding: 10px;
+background: linear-gradient(45deg, #131014, #097ba8, #b40606);
+background-size: 500% 500%;
+animation: change-gradient 15s ease-in-out infinite;
+}
+
+.footer-description{
+color: #ffffff;
+font-family: verdana,'italic', cursive;
+font-size: 20px;
+font-weight: normal;
+}

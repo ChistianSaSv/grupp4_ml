@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Sales Predictor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+            <!-- Website title on top -->
+            <div class="container">
+                <h2 class='container-heading'><span class="heading_font">Game Sales Predictor</span></h2>
+                <div class='description'>
+                    <p>A Machine Learning Web Application, Deployed using Sanic.</p>
+                </div>
+            </div>
+
+<!--#region ml-container  -->
+
+    <!-- Text area depending on user interaction - prediction from three factors 
+    	<div class="ml-container">
+    		<form action="{{ url_for('predict') }}" method="POST">
+                <input class="form-input" type="text" name="genre" placeholder="Name of the Genre"><br>
+                <input class="form-input" type="text" name="platform" placeholder="Name of the Platform"><br>
+                <input class="form-input" type="text" name="publisher" placeholder="Name of the Publisher"><br>
+
+                 Submit button
+        		<input type="submit" class="my-cta-button" value="Predict">
+        	</form>
+
+          
+
+    	</div>
+-->
+
+<!-- Text area depending on user interaction - prediction from one factor-->
+        <div class="ml-container">
+            <h2>Predict sales based on critic score</h2> <br>
+            
+        <input id="score-input" placeholder="Enter Critic Score" required>
+                <!--Submit button-->
+                <button id="my-cta-button">Predict</button>
+            <br>
+
+            <h4 id="prediction"></h4>
+            <br>
+        
+            <!--Picture-->
+            <img class="profile-icon" src="Game Sales Predictor.png" alt="logo">
+</div>
+
+        <!-- Footer -->
+        <div class='footer'>
+            <p class='footer-description'>Made by Group 4<p>
+        </div>
+
+<script 
+src="https://code.jquery.com/jquery-3.6.0.min.js"
+integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDejm4=" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
