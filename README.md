@@ -3,7 +3,7 @@ Assignment - AI-driven web service
 
 The user should be able to estimate what the sales of a game will look like depending on the critic score.
 
-#To setup the application and get it working on your local computer we’d recommend the following steps
+# To setup the application and get it working on your local computer we’d recommend the following steps
 
 Clone repository or Download the zipfile
 Create a virtual environment in the script and activate the venv.
